@@ -103,6 +103,11 @@ header h2 {
 }
 
 a.button {
+    -webkit-transition: all 0.2s linear;
+   -moz-transition: all 0.2s linear;
+   -o-transition: all 0.2s linear;
+   -ms-transition: all 0.2s linear;
+   transition: all 0.2s linear;
   -moz-border-radius: 30px;
   -webkit-border-radius: 30px;
   border-radius: 30px;
@@ -130,8 +135,14 @@ a.button {
   -webkit-box-shadow: 10px 10px 5px #888;
   -moz-box-shadow: 10px 10px 5px #888;
   box-shadow: 0px 1px 5px #e8e8e8;
+
 }
 a.button:hover {
+   -webkit-transform: scale(1.0038,1.0038);
+   -moz-transform: scale(1.0038,1.0038);
+   -o-transform: scale(1.0038,1.0038);
+   -ms-transform: scale(1.0038,1.0038);
+   transform: scale(1.0038,1.0038);
   border-top: solid 1px #b7b7b7;
   border-left: solid 1px #b3b3b3;
   border-right: solid 1px #b3b3b3;
