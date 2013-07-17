@@ -11,6 +11,40 @@
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
     <title>Fomightez at GitHub</title>
+    <style>
+    .fade {
+   opacity: 1;
+   transition: opacity .25s ease-in-out;
+   -moz-transition: opacity .25s ease-in-out;
+   -webkit-transition: opacity .25s ease-in-out;
+   -o-transition: opacity .25s ease-in-out;
+   }
+
+.fade:hover {
+     opacity: 0.6;
+     -webkit-transition-delay: 0.20s;
+  -moz-transition-delay: 0.20s;
+  -o-transition-delay: 0.20s;
+  -ms-transition-delay: 0.20s;
+  transition-delay: 0.20s;
+      }
+
+.small_bump {
+   -webkit-transition: all 0.2s linear;
+   -moz-transition: all 0.2s linear;
+   -o-transition: all 0.2s linear;
+   -ms-transition: all 0.2s linear;
+   transition: all 0.2s linear;
+   }
+
+.small_bump:hover {
+   -webkit-transform: scale(1.03,1.03);
+   -moz-transform: scale(1.03,1.03);
+   -o-transform: scale(1.03,1.03);
+   -ms-transform: scale(1.03,1.03);
+   transform: scale(1.03,1.03);
+      }
+</style>
   </head>
 
   <body>
@@ -61,8 +95,8 @@ $ git commit
           <!--first with help from one from http://stackoverflow.com/questions/10045517/embedding-images-inside-a-github-wiki-gollum-repository
           and https://github.com/github/media/tree/master/octocats -->
           &nbsp;&nbsp;
-          <a href= "https://github.com/fomightez"><img src="https://raw.github.com/github/media/master/octocats/blacktocat-32.png" alt="Fomightez at GitHub" width="20"></a>
-          <a href= "http://git-scm.com/"><img src="https://pvbookmarks.readthedocs.org/en/latest/_images/Git-Icon-1788C.png" alt="Git" width="20"></a>
+          <a href= "https://github.com/fomightez"><img src="https://raw.github.com/github/media/master/octocats/blacktocat-32.png" alt="Fomightez at GitHub" width="20" class="small_bump"></a>
+          <a href= "http://git-scm.com/"><img src="https://pvbookmarks.readthedocs.org/en/latest/_images/Git-Icon-1788C.png" alt="Git" width="20" class="small_bump"></a>
         </footer>
 
 
