@@ -138,11 +138,11 @@ a.button {
 
 }
 a.button:hover {
-   -webkit-transform: scale(1.0038,1.0038);
-   -moz-transform: scale(1.0038,1.0038);
-   -o-transform: scale(1.0038,1.0038);
-   -ms-transform: scale(1.0038,1.0038);
-   transform: scale(1.0038,1.0038);
+   -webkit-transform: scale(1.0048,1.0048);
+   -moz-transform: scale(1.0048,1.0048);
+   -o-transform: scale(1.0048,1.0048);
+   -ms-transform: scale(1.0048,1.0048);
+   transform: scale(1.0048,1.0048);
   border-top: solid 1px #b7b7b7;
   border-left: solid 1px #b3b3b3;
   border-right: solid 1px #b3b3b3;
