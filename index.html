@@ -96,7 +96,26 @@ $ git commit
 
 <!-- from http://css-tricks.com/left-align-and-right-align-text-on-the-same-line/ -->
 <div id="textbox" style ="position: relative; top: 60px;">
-  <p class="alignleft">Check out <a href="http://fomightez.pythonanywhere.com">fomightez.pythonanywhere.com</a>. You can always tweet @fomightez or contact me at <img src="https://raw.github.com/fomightez/fomightez.github.io/master/images/fomightez_email.png" alt="antispam email address">, and I’ll be glad to help you.</p>
+  <p class="alignleft">Check out <a href="http://fomightez.pythonanywhere.com">fomightez.pythonanywhere.com</a>. You can always tweet @fomightez or contact me at <script type="text/javascript" language="javascript">
+// from http://www.jottings.com/obfuscator/
+{ coded = "sq2H8SC7K@82GHF.Qq2"
+  therealkey = "wbyFshpG176HUqtOzNEm3TnMSVgd4YP5ICuKZ02cjrxXL8lfBAaveDi9oRQJWk"
+  shift=coded.length
+  link=""
+  for (i=0; i<coded.length; i++) {
+    if (therealkey.indexOf(coded.charAt(i))==-1) {
+      ltr = coded.charAt(i)
+      link += (ltr)
+    }
+    else {
+      ltr = (therealkey.indexOf(coded.charAt(i))-shift+therealkey.length) % therealkey.length
+      link += (therealkey.charAt(ltr))
+    }
+  }
+document.write("<a href='mailto:"+link+"'>"+link+"</a>")
+}
+//-->
+</script><noscript>Sorry, you need Javascript on to email me.</noscript>, and I’ll be glad to help you.</p>
   <p class="alignright"><a href="https://twitter.com/Fomightez" class="twitter-follow-button" data-show-count="false">Follow @Fomightez</a>
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>&nbsp; &nbsp; &nbsp; &nbsp;</p>
 </div>
